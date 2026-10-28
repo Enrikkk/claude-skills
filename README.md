@@ -16,6 +16,7 @@ implicitly when your request matches its description.
 | [`explain-workflow`](explain-workflow) | Works out loud as a teacher for the rest of the session — shows each step as it's taken and why, so you can follow and learn the workflow itself, not just get the result. |
 | [`explain-code`](explain-code) | Explains a function, class, or file block-by-block in plain English. |
 | [`drop-jargon`](drop-jargon) | Re-explains Claude's own previous message in plain language, assuming no technical background. |
+| [`mcq-explain`](mcq-explain) | Resolves a task or a whole set of open issues through multiple-choice questions, where every question carries its own deep, plain-language explanation (context, the problem, a concrete example, what each answer leads to, cost and risk), so you learn each issue and decide it in the same step. |
 | [`merge-branches`](merge-branches) | Walks you through resolving git merge conflicts interactively — one conflict at a time, each decided by a multiple-choice question with a real recommendation, instead of silent auto-resolution. |
 | [`merge-audit`](merge-audit) | Deep audit of a merge *after* it's already happened — hunts for code silently skipped, dropped, or broken by the merge that never raised a conflict marker in the first place. |
 | [`test-features`](test-features) | Runs a deep testing pass on a just-implemented feature: functional correctness, edge cases, data integrity, the project's own test suite, and live/real-environment behavior. |
